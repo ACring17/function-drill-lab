@@ -366,7 +366,19 @@ let sampleArray = [0, 1, 2, 3, 4, 7, 5, 6, 8, 9]
     */
 
 //CODE HERE
+const ascendArray = (arr) => {
+    let compareValue = arr[0]
+    for (let i = 1; i < arr.length; i++) {
+        if ([i] <= compareValue) {
+            return false
+        } else {
+            compareValue = arr[i]
+        }
+    }
+    return true
+}
 
+let arrayIsAscending = ascendArray(sampleArray)
 
 ////////////////// PROBLEM 22 ////////////////////
 
