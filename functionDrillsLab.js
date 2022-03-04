@@ -58,12 +58,12 @@
 */
 
 //CODE HERE
-const greeting = (name) => {
-    console.log(`Hello, ${name}`)
-}
+// const greeting = (name) => {
+//     console.log(`Hello, ${name}`)
+// }
 
-greeting('Jake')
-    ////////////////// PROBLEM 5 ////////////////////
+// greeting('Jake')
+////////////////// PROBLEM 5 ////////////////////
 
 /*
     Write an arrow function called 'compareNums' that takes in 2 parameters, 
@@ -75,7 +75,17 @@ greeting('Jake')
 */
 
 //CODE HERE
+const compareNums = (num1, num2) => {
+    if (num1 > num2) {
+        return num1
+    } else if (num2 > num1) {
+        return num2
+    } else {
+        return num1
+    }
+}
 
+compareNums(3, 4)
 
 ////////////////// PROBLEM 6 ////////////////////
 /*
