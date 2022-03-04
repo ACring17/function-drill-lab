@@ -231,14 +231,14 @@ let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
 */
 
 //CODE HERE
-const thatsOdd = (num) => {
-    if (num % 2 === 0) {
-        return "That's not odd!"
-    } else {
-        return "That is odd indeed!"
-    }
-}
-let oddChecker = thatsOdd(14)
+// const thatsOdd = (num) => {
+//     if (num % 2 === 0) {
+//         return "That's not odd!"
+//     } else {
+//         return "That is odd indeed!"
+//     }
+// }
+// let oddChecker = thatsOdd(14)
 
 ////////////////// PROBLEM 14 ////////////////////
 
@@ -251,7 +251,7 @@ let oddChecker = thatsOdd(14)
 */
 
 //CODE HERE
-
+const bestMovie = (movie) => `${movie} is the best movie ever!`
 
 ////////////////// PROBLEM 15 ////////////////////
 let bigOrSmallArray = [1, 101, 102, 2, 103, 4, 5, 6, 107]
