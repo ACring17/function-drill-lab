@@ -12,11 +12,11 @@
 */
 
 //CODE HERE
-// const helloWorld = () => {
-//     console.log("Hello, World!")
-// }
+const helloWorld = () => {
+    console.log("Hello, World!")
+}
 
-// helloWorld()
+helloWorld()
 
 ////////////////// PROBLEM 2 ////////////////////
 
@@ -26,11 +26,11 @@
 
 //CODE HERE
 
-// const jsNinja = () => {
-//     return 'I am a JavaScript ninja!'
-// }
+const jsNinja = () => {
+    return 'I am a JavaScript ninja!'
+}
 
-// jsNinja()
+jsNinja()
 
 ////////////////// PROBLEM 3 ////////////////////
 /*
@@ -40,11 +40,11 @@
 */
 
 //CODE HERE
-// const printName = (name) => {
-//     console.log(name)
-// }
+const printName = (name) => {
+    console.log(name)
+}
 
-// printName("Drew")
+printName("Drew")
 
 ////////////////// PROBLEM 4 ////////////////////
 /*
@@ -58,13 +58,13 @@
 */
 
 //CODE HERE
-// const greeting = (name) => {
-//     name = String(name)
-//     console.log(`Hello, ${name}`)
-// }
+const greeting = (name) => {
+    name = String(name)
+    console.log(`Hello, ${name}`)
+}
 
-// greeting('Jake')
-////////////////// PROBLEM 5 ////////////////////
+greeting('Jake')
+    ////////////////// PROBLEM 5 ////////////////////
 
 /*
     Write an arrow function called 'compareNums' that takes in 2 parameters, 
@@ -76,15 +76,15 @@
 */
 
 //CODE HERE
-// const compareNums = (num1, num2) => {
-//     if (num1 > num2) {
-//         return num1
-//     } else {
-//         return num2
-//     }
-//   }
+const compareNums = (num1, num2) => {
+    if (num1 > num2) {
+        return num1
+    } else {
+        return num2
+    }
+}
 
-// compareNums(3, 4)
+compareNums(3, 4)
 
 ////////////////// PROBLEM 6 ////////////////////
 /*
@@ -95,13 +95,13 @@
 */
 
 //CODE HERE
-// function add(num1, num2) {
-//     num1 = +num1
-//     num2 = +num2
-//     return num1 + num2
-// }
+function add(num1, num2) {
+    num1 = +num1
+    num2 = +num2
+    return num1 + num2
+}
 
-// let sum = add(7, 14)
+let sum = add(7, 14)
 
 ////////////////// PROBLEM 7 ////////////////////
 
@@ -116,7 +116,7 @@ const exclaim = function(str) {
 
 // arrow
 // declaration
-// expression ****Answer****
+expression
 
 
 
@@ -131,7 +131,7 @@ const exclaimTwo = str => {
     return str.toUpperCase() + '!!!'
 }
 
-// arrow  ***Answer***
+arrow
 // declaration
 // expression
 
@@ -156,7 +156,7 @@ function exclaimFour(str) {
 }
 
 // arrow
-// declaration ***Answer***
+declaration
 // expression
 
 
@@ -170,17 +170,17 @@ function exclaimFour(str) {
 */
 
 //CODE HERE
-// const nameCheck = (firstName) => {
-//     if (firstName === "Steven") {
-//         return 'What is up Steven?'
-//     } else if (firstName === "Bryan") {
-//         return 'Hey Bryan!'
-//     } else {
-//         return `Cool name, ${firstName}`
-//     }
-// }
+const nameCheck = (firstName) => {
+    if (firstName === "Steven") {
+        return 'What is up Steven?'
+    } else if (firstName === "Bryan") {
+        return 'Hey Bryan!'
+    } else {
+        return `Cool name, ${firstName}`
+    }
+}
 
-// let nameGreeting = nameCheck(Bryan)
+let nameGreeting = nameCheck(Bryan)
 
 ////////////////// PROBLEM 11 ////////////////////
 /*
@@ -193,20 +193,20 @@ function exclaimFour(str) {
 */
 
 //CODE HERE
-// const faveColorFinder = (color) => {
-//     if (color === 'red') {
-//         return 'red is a great color'
-//     } else if (color === 'green') {
-//         return 'green is a solid favorite color'
-//     } else if (color === 'black') {
-//         return 'so trendy'
-//     } else {
-//         return 'you need to evaluate your favorite color choice'
-//     }
-// }
+const faveColorFinder = (color) => {
+    if (color === 'red') {
+        return 'red is a great color'
+    } else if (color === 'green') {
+        return 'green is a solid favorite color'
+    } else if (color === 'black') {
+        return 'so trendy'
+    } else {
+        return 'you need to evaluate your favorite color choice'
+    }
+}
 
-// let colorRating = faveColorFinder('green')
-////////////////// PROBLEM 12 ////////////////////
+let colorRating = faveColorFinder('green')
+    ////////////////// PROBLEM 12 ////////////////////
 let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
     /*
       Create a function called printAllNames that takes in a single argument (an array of names).
@@ -215,12 +215,12 @@ let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
     */
 
 //CODE HERE
-// const printAllNames = (arrName) => {
-//     for (let i = 0; i < arrName.length; i++)
-//         console.log(arrName[i])
-// }
+const printAllNames = (arrName) => {
+    for (let i = 0; i < arrName.length; i++)
+        console.log(arrName[i])
+}
 
-// printAllNames(namesArr)
+printAllNames(namesArr)
 
 ////////////////// PROBLEM 13 ////////////////////
 /*
@@ -231,14 +231,14 @@ let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
 */
 
 //CODE HERE
-// const thatsOdd = (num) => {
-//     if (num % 2 === 0) {
-//         return "That's not odd!"
-//     } else {
-//         return "That is odd indeed!"
-//     }
-// }
-// let oddChecker = thatsOdd(14)
+const thatsOdd = (num) => {
+    if (num % 2 === 0) {
+        return "That's not odd!"
+    } else {
+        return "That is odd indeed!"
+    }
+}
+let oddChecker = thatsOdd(14)
 
 ////////////////// PROBLEM 14 ////////////////////
 
@@ -265,19 +265,19 @@ let bigOrSmallArray = [1, 101, 102, 2, 103, 4, 5, 6, 107]
     */
 
 //CODE HERE
-// const bigOrSmall = (arr) => {
-//     let answers = []
-//     for (let i = 0; i < arr.length; i++) {
-//         if (arr[i] > 100) {
-//             answers.push('big')
-//         } else {
-//             answers.push('small')
-//         }
-//     }
-//     return answers
-// }
+const bigOrSmall = (arr) => {
+    let answers = []
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] > 100) {
+            answers.push('big')
+        } else {
+            answers.push('small')
+        }
+    }
+    return answers
+}
 
-// let arrayEvaluator = bigOrSmall(bigOrSmallArray)
+let arrayEvaluator = bigOrSmall(bigOrSmallArray)
 
 ////////////////// PROBLEM 16 ////////////////////
 let contestants = ['Katniss', 'Peeta', 'Fox-face', 'Glimmer', 'Cato', 'Rue', 'Thresh', 'Clove', 'Marvel']
