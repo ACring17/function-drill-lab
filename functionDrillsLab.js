@@ -76,15 +76,15 @@
 */
 
 //CODE HERE
-const compareNums = (num1, num2) => {
-    if (num1 > num2) {
-        return num1
-    } else {
-        return num2
-    }
-}
+// const compareNums = (num1, num2) => {
+//     if (num1 > num2) {
+//         return num1
+//     } else {
+//         return num2
+//     }
+//   }
 
-compareNums(3, 4)
+// compareNums(3, 4)
 
 ////////////////// PROBLEM 6 ////////////////////
 /*
@@ -95,7 +95,13 @@ compareNums(3, 4)
 */
 
 //CODE HERE
-function add(num1, num2) {}
+function add(num1, num2) {
+    num1 = +num1
+    num2 = +num2
+    return num1 + num2
+}
+
+let sum = add(7, 14)
 
 ////////////////// PROBLEM 7 ////////////////////
 
