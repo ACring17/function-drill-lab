@@ -215,12 +215,12 @@ let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
     */
 
 //CODE HERE
-const printAllNames = (arrName) => {
-    for (let i = 0; i < arrName.length; i++)
-        console.log(arrName[i])
-}
+// const printAllNames = (arrName) => {
+//     for (let i = 0; i < arrName.length; i++)
+//         console.log(arrName[i])
+// }
 
-printAllNames(namesArr)
+// printAllNames(namesArr)
 
 ////////////////// PROBLEM 13 ////////////////////
 /*
@@ -231,7 +231,14 @@ printAllNames(namesArr)
 */
 
 //CODE HERE
-
+const thatsOdd = (num) => {
+    if (num % 2 === 0) {
+        return "That's not odd!"
+    } else {
+        return "That is odd indeed!"
+    }
+}
+let oddChecker = thatsOdd(14)
 
 ////////////////// PROBLEM 14 ////////////////////
 
