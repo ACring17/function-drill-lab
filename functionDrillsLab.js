@@ -40,11 +40,11 @@
 */
 
 //CODE HERE
-const printName = (name) => {
-    console.log(name)
-}
+// const printName = (name) => {
+//     console.log(name)
+// }
 
-printName("Drew")
+// printName("Drew")
 
 ////////////////// PROBLEM 4 ////////////////////
 /*
@@ -58,9 +58,12 @@ printName("Drew")
 */
 
 //CODE HERE
+const greeting = (name) => {
+    console.log(`Hello, ${name}`)
+}
 
-
-////////////////// PROBLEM 5 ////////////////////
+greeting('Jake')
+    ////////////////// PROBLEM 5 ////////////////////
 
 /*
     Write an arrow function called 'compareNums' that takes in 2 parameters, 
