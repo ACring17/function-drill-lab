@@ -12,11 +12,11 @@
 */
 
 //CODE HERE
-const helloWorld = () => {
-    console.log("Hello, World!")
-}
+// const helloWorld = () => {
+//     console.log("Hello, World!")
+// }
 
-helloWorld()
+// helloWorld()
 
 ////////////////// PROBLEM 2 ////////////////////
 
@@ -26,6 +26,11 @@ helloWorld()
 
 //CODE HERE
 
+// const jsNinja = () => {
+//     return 'I am a JavaScript ninja!'
+// }
+
+// jsNinja()
 
 ////////////////// PROBLEM 3 ////////////////////
 /*
@@ -35,7 +40,11 @@ helloWorld()
 */
 
 //CODE HERE
+const printName = (name) => {
+    console.log(name)
+}
 
+printName("Drew")
 
 ////////////////// PROBLEM 4 ////////////////////
 /*
