@@ -170,17 +170,17 @@ function exclaimFour(str) {
 */
 
 //CODE HERE
-const nameCheck = (firstName) => {
-    if (firstName === "Steven") {
-        return 'What is up Steven?'
-    } else if (firstName === "Bryan") {
-        return 'Hey Bryan!'
-    } else {
-        return `Cool name, ${firstName}`
-    }
-}
+// const nameCheck = (firstName) => {
+//     if (firstName === "Steven") {
+//         return 'What is up Steven?'
+//     } else if (firstName === "Bryan") {
+//         return 'Hey Bryan!'
+//     } else {
+//         return `Cool name, ${firstName}`
+//     }
+// }
 
-let nameGreeting = nameCheck(Bryan)
+// let nameGreeting = nameCheck(Bryan)
 
 ////////////////// PROBLEM 11 ////////////////////
 /*
@@ -193,9 +193,20 @@ let nameGreeting = nameCheck(Bryan)
 */
 
 //CODE HERE
+const faveColorFinder = (color) => {
+    if (color === 'red') {
+        return 'red is a great color'
+    } else if (color === 'green') {
+        return 'green is a solid favorite color'
+    } else if (color === 'black') {
+        return 'so trendy'
+    } else {
+        return 'you need to evaluate your favorite color choice'
+    }
+}
 
-
-////////////////// PROBLEM 12 ////////////////////
+let colorRating = faveColorFinder('green')
+    ////////////////// PROBLEM 12 ////////////////////
 let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
     /*
       Create a function called printAllNames that takes in a single argument (an array of names).
