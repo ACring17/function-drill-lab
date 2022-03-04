@@ -347,7 +347,17 @@ let totalFrogs = chocFrogBuyer(17)
     */
 
 //CODE HERE
+const chocFrogBuyer2 = (gold) => {
+    if (gold % 3 === 0) {
+        return gold / 3
+    } else if (gold - 1 % 3 === 0) {
+        return gold - 1 % 3
+    } else {
+        return gold - 2 % 3
+    }
+}
 
+let totalFrogs2 = chocFrogBuyer2(19)
 
 ////////////////// PROBLEM 21 ////////////////////
 let sampleArray = [0, 1, 2, 3, 4, 7, 5, 6, 8, 9]
