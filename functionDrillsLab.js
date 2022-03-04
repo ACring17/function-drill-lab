@@ -193,20 +193,20 @@ function exclaimFour(str) {
 */
 
 //CODE HERE
-const faveColorFinder = (color) => {
-    if (color === 'red') {
-        return 'red is a great color'
-    } else if (color === 'green') {
-        return 'green is a solid favorite color'
-    } else if (color === 'black') {
-        return 'so trendy'
-    } else {
-        return 'you need to evaluate your favorite color choice'
-    }
-}
+// const faveColorFinder = (color) => {
+//     if (color === 'red') {
+//         return 'red is a great color'
+//     } else if (color === 'green') {
+//         return 'green is a solid favorite color'
+//     } else if (color === 'black') {
+//         return 'so trendy'
+//     } else {
+//         return 'you need to evaluate your favorite color choice'
+//     }
+// }
 
-let colorRating = faveColorFinder('green')
-    ////////////////// PROBLEM 12 ////////////////////
+// let colorRating = faveColorFinder('green')
+////////////////// PROBLEM 12 ////////////////////
 let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
     /*
       Create a function called printAllNames that takes in a single argument (an array of names).
@@ -215,7 +215,12 @@ let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
     */
 
 //CODE HERE
+const printAllNames = (arrName) => {
+    for (let i = 0; i < arrName.length; i++)
+        console.log(arrName[i])
+}
 
+printAllNames(namesArr)
 
 ////////////////// PROBLEM 13 ////////////////////
 /*
