@@ -305,18 +305,20 @@ let sampleString = "Hi, my name is Kylo."
     */
 
 //CODE HERE
-
-
-////////////////// PROBLEM 18 ////////////////////
-/*
-  Write a function called emailCheck that takes in
-  one parameter - email.
-  Inside the function, convert the email param into 
-  a string and trim off any excess whitespace.
-  Check to make sure the email contains an '@' symbol.
-  If it does, return 'email verified' and if doesn't, 
-  return 'must provide a valid email address'
-*/
+const printUpperString = (str) => {
+    console.log(str.toUpperCase())
+}
+printUpperString(sampleString)
+    ////////////////// PROBLEM 18 ////////////////////
+    /*
+      Write a function called emailCheck that takes in
+      one parameter - email.
+      Inside the function, convert the email param into 
+      a string and trim off any excess whitespace.
+      Check to make sure the email contains an '@' symbol.
+      If it does, return 'email verified' and if doesn't, 
+      return 'must provide a valid email address'
+    */
 
 ////////////////// PROBLEM 19 ////////////////////
 /*
