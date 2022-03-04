@@ -95,13 +95,13 @@
 */
 
 //CODE HERE
-function add(num1, num2) {
-    num1 = +num1
-    num2 = +num2
-    return num1 + num2
-}
+// function add(num1, num2) {
+//     num1 = +num1
+//     num2 = +num2
+//     return num1 + num2
+// }
 
-let sum = add(7, 14)
+// let sum = add(7, 14)
 
 ////////////////// PROBLEM 7 ////////////////////
 
@@ -116,7 +116,7 @@ const exclaim = function(str) {
 
 // arrow
 // declaration
-// expression
+// expression ****Answer****
 
 
 
@@ -131,7 +131,7 @@ const exclaimTwo = str => {
     return str.toUpperCase() + '!!!'
 }
 
-// arrow
+// arrow  ***Answer***
 // declaration
 // expression
 
@@ -142,7 +142,7 @@ const exclaimTwo = str => {
   Brownie points if you use a template string
 */
 
-
+const exclaimThree = str => `${str.toUpperCase()}!!!`
 
 ////////////////// PROBLEM 9 ////////////////////
 
