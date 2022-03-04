@@ -265,19 +265,19 @@ let bigOrSmallArray = [1, 101, 102, 2, 103, 4, 5, 6, 107]
     */
 
 //CODE HERE
-const bigOrSmall = (arr) => {
-    let answers = []
-    for (let i = 0; i < arr.length; i++) {
-        if (arr[i] > 100) {
-            answers.push('big')
-        } else {
-            answers.push('small')
-        }
-    }
-    return answers
-}
+// const bigOrSmall = (arr) => {
+//     let answers = []
+//     for (let i = 0; i < arr.length; i++) {
+//         if (arr[i] > 100) {
+//             answers.push('big')
+//         } else {
+//             answers.push('small')
+//         }
+//     }
+//     return answers
+// }
 
-let arrayEvaluator = bigOrSmall(bigOrSmallArray)
+// let arrayEvaluator = bigOrSmall(bigOrSmallArray)
 
 ////////////////// PROBLEM 16 ////////////////////
 let contestants = ['Katniss', 'Peeta', 'Fox-face', 'Glimmer', 'Cato', 'Rue', 'Thresh', 'Clove', 'Marvel']
@@ -288,9 +288,16 @@ let loser = 'Glimmer'
     */
 
 //CODE HERE
-
-
-////////////////// PROBLEM 17 ////////////////////
+const theEliminator = (contestants, loser) => {
+    for (let i = 0; i < contestants.length; i++) {
+        if (contestants[i] === loser) {
+            contestants.splice(i, 1)
+        }
+    }
+    return contestants
+}
+let newContestants = theEliminator(contestants, loser)
+    ////////////////// PROBLEM 17 ////////////////////
 let sampleString = "Hi, my name is Kylo."
     /*
       Write a function that takes in one argument, a string. The function should then console.log that string, in entirely uppercase characters.
